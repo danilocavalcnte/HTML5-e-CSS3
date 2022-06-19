@@ -33,7 +33,7 @@ target="_blank" pede para o link abrir em uma outra pagina
 
 <img src="img/avatar.jpg"> <-------> Obrigatório!  Guarda o caminho da imagem, dentro do site ou imagem de outro lugar!
 
-<img alt="Foto de Lucas Vilaboim"> <-------> Não é obrigatório ! Para leitoresd de tela identificarem a imagem.
+<img alt="Foto de Lucas Vilaboim"> <-------> Não é obrigatório ! Para leitores de tela identificarem a imagem.
 
 <ul> <-------> indica pontos
 item 1
@@ -44,3 +44,20 @@ item 2
 2. item 3
 
 <li> <-------> monta uma lista
+
+
+CSS3
+
+1º O que são seletores
+2º Conceitos básicos
+3ºPrincipais Seletores
+
+.header <---------> ID x Classe <-------> #header
+
+<header id="header" class="header"></header>
+
+<header class="header"></header>
+
+
+BOX MODEL 
+No desenvolvimento da web, o modelo de caixa CSS se refere a como os elementos HTML são modelados nos mecanismos do navegador e como as dimensões desses elementos HTML são derivadas das propriedades CSS.
