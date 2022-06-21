@@ -63,4 +63,32 @@ a {
 
 .contacts_list li a {
     text-decoration: none;
+    font-style: normal;
 }
+
+.contacts_list {
+    display: flex;
+    max-width: 300px;
+    flex-direction: row;
+    text-align: center;
+    padding: 2px;
+}
+
+.e-mail {
+    border: 1px solid 50, 50, 50 ;
+    border-radius: 50%;
+    width: 35%;
+}
+
+.linkedin {
+    border: 1px solid 50, 50, 50 ;
+    border-radius: 50%;
+    width: 35%;
+}
+
+.GitHub {
+    border: 1px solid 50, 50, 50 ;
+    border-radius: 50%;
+    width: 35%;
+}
+
