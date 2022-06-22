@@ -1,6 +1,6 @@
 body {
     background: rgb(255, 255, 240) ;
-    font-family: Verdana;
+    font-family: Arial;
     max-width: 900px;
     margin: auto;
 
@@ -10,6 +10,7 @@ body {
     border: 1px solid 50, 50, 50 ;
     border-radius: 50%;
     width: 25%;
+    float: right; max-width: 400px; margin-bottom: 200px;
 }
 
 #tittle, .subtitle, .post_title {
@@ -19,7 +20,8 @@ body {
 #title {
     font-size: 40px;
     text-transform: uppercase;
-}
+    float: left;
+}                           
 
 a {
     text-decoration: line-through;
@@ -50,6 +52,11 @@ a {
     text-align: justify;
 }
 
+.title {
+    font-family: arial;
+
+}
+
 .post_image {
     margin-bottom: 15px;
     width: 100%;
@@ -58,7 +65,7 @@ a {
 .contacts_list {
     list-style-type: none;
     padding: 0;
-    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .contacts_list li a {
@@ -69,26 +76,28 @@ a {
 .contacts_list {
     display: flex;
     max-width: 300px;
+    text-align: right;
+    padding: 1px;
     flex-direction: row;
-    text-align: center;
-    padding: 2px;
+    float: right;
+    line-height: 10px;
 }
 
 .e-mail {
     border: 1px solid 50, 50, 50 ;
-    border-radius: 50%;
-    width: 35%;
+    border-radius: 60%;
+    width: 50%;
 }
 
 .linkedin {
     border: 1px solid 50, 50, 50 ;
-    border-radius: 50%;
-    width: 35%;
+    border-radius: 100%;
+    width: 50%;
 }
 
 .GitHub {
     border: 1px solid 50, 50, 50 ;
     border-radius: 50%;
-    width: 35%;
+    width: 50%;
 }
 
